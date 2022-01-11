@@ -6,7 +6,6 @@ const fs = require('fs')
 var randomize = require('randomatic');
 const User = use("App/Models/User")
 const Role = use("App/Models/Role")
-const Specialty = use("App/Models/Specialty")
 const { validate } = use("Validator")
 const moment = require('moment')
 var ObjectId = require('mongodb').ObjectId;
